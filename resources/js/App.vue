@@ -1,7 +1,11 @@
 <template>
     <div>
-        <h1>Hello, Vuejs with Laravel</h1>
+        <h1 class="text-3xl font-bold underline text-center">
+            Laravel 10 , Vue.js 3 , Tailwind CSS and Vite
+        </h1>
     </div>
 </template>
 <script setup>
+import {ref} from 'vue'
+const name = ref();
 </script>
